@@ -1,12 +1,12 @@
 pandas
 scikit-learn
+numpy
 wordcloud
 matplotlib
 seaborn
 regex
 nltk
 gensim
-numpy<=1.26.4
 torch
 torchvision
 torchaudio
