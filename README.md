@@ -1,8 +1,4 @@
-Here’s a template for your README file, based on your project description and decisions:
-
----
-
-# Sentiment Analysis Using Deep Learning and Machine Learning Models
+# Pandemic Tweet Sentiment Prediction
 
 This project focuses on sentiment analysis of tweets using both deep learning models (RNN, LSTM, GRU) and a machine learning model (Random Forest). We explore how these models perform on a dataset of tweets, aiming to predict sentiment polarity (positive, negative, or neutral). Despite applying regularization techniques and hyperparameter tuning, the results show signs of overfitting, pointing to the need for better data preprocessing and quality improvement.
 
