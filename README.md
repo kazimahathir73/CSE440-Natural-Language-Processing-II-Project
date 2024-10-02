@@ -76,9 +76,8 @@ PyTorch relies heavily on C++ extensions for performance optimization. One of th
   - Download the [googlenews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/view?resourcekey=0-wjGZdNAUop6WykTtMip30g)
   - Copy the file and paste it in the current working directory.
 
-
-
 ## Results
+![Model Comparison](images/model_comparison.png)
 
 Despite applying various regularization techniques and hyperparameter tuning, all models showed overfitting tendencies. This suggests that the primary issue lies with the dataset quality. 
 
