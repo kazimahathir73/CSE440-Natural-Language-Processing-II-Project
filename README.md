@@ -52,38 +52,26 @@ The dataset used for this project consists of tweets labeled with sentiment. It 
   - Epochs: 30
   - Dropout: 0.1 to avoid overfitting
 
-## dependency-installation
+## Dependency-installation
 
 To run this project, follow these steps:
 
-1. Instructions to Install Visual Studio 2022 Community Edition
+1. **Instructions to Install Visual Studio 2022 Community Edition**
 
 PyTorch relies heavily on C++ extensions for performance optimization. One of the fastest ways to ensure these dependencies are properly set up is to install **Visual Studio 2022 Community Edition**. Follow these steps to complete the installation:
 
-  **Download Visual Studio 2022 Community Edition**:
-   - Use this [Visual Studio 2022 Community Edition](https://visualstudio.microsoft.com/vs/community/) to download the installer.
-
-  **Install the Visual Studio Installer**:
+   - Download Visual Studio 2022 Community Edition. Use this [Visual Studio 2022 Community Edition](https://visualstudio.microsoft.com/vs/community/) to download the installer.
    - Run the `.exe` file that you downloaded.
-
-  **Install the Required C++ Components**:
    - During the installation, ensure you select the components for **Desktop development with C++**.
-   
-  **Complete the Installation**:
    - Let the Visual Studio installer download and install the necessary files. This will set up the C++ toolchain, which PyTorch depends on.
 
-Once this process is complete, your system will have the necessary C++ extensions to run PyTorch properly.
-
-
-2. Instruction for install dependent Libraries
+2. **Instruction for install dependent Libraries**
 
    ```bash
    -m pip install -r requirements.txt
    ```
 
-3. Instruction to download GoogleNews word2vec pretrain weights
-
-Kindly go through the following steps-
+3. **Instruction to download GoogleNews word2vec pretrain weights**
 
   - Download the [googlenews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/view?resourcekey=0-wjGZdNAUop6WykTtMip30g)
   - Copy the file and paste it in the current working directory.
